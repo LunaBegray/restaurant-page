@@ -1,12 +1,14 @@
 import createContent from "./content";
 import createMenu from "./menu";
-//tabs area
+createContent();
+//tab area
 const container = document.querySelector('.container');
-const tabDiv = document.createElement("div");
-const tabContent = document.createElement("BUTTON");
-const tabMenu = document.createElement("BUTTON");
-tabContent.textContent = "Content";
-tabMenu.textContent = "Menu";
-tabDiv.appendChild(tabContent);
-tabDiv.appendChild(tabMenu);
-container.appendChild(tabDiv); 
+const tabDiv = document.createElement('div');
+const menuDiv = document.createElement('BUTTON');
+const contentDiv = document.createElement('BUTTON');
+menuDiv.textContent = "menu";
+contentDiv.textContent = "content";
+tabDiv.appendChild(menuDiv);
+tabDiv.appendChild(contentDiv);
+container.appendChild(tabDiv);
+
