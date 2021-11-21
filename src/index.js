@@ -8,7 +8,7 @@ const contentBtn = document.createElement('BUTTON');
 menuBtn.textContent = "menu";
 contentBtn.textContent = "content";
 menuBtn.addEventListener('click', function(){
-    console.log("meny button clicked")
+    console.log("meny button clicked");
     container.textContent = "";
     createMenu();
 });
@@ -17,5 +17,5 @@ contentBtn.addEventListener('click', function(){
     container.textContent = "";
     createContent();
 });
-container.appendChild(menuDiv);
-container.appendChild(contentDiv);
+container.appendChild(menuBtn);
+container.appendChild(contentBtn);
