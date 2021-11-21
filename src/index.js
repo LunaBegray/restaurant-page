@@ -1,4 +1,3 @@
-import { container } from "webpack";
 import createContent from "./content";
 import createMenu from "./menu";
 createContent();
