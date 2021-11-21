@@ -16,5 +16,6 @@ const createMenu = function(){
     const sushiDiv = document.createElement("div");
     sushiDiv.textContent = "anime sushi, 9 dollars oni-chan please";
     menuDiv.appendChild(sushiDiv);
+    container.appendChild(menuDiv);
 };
 export default createMenu;
