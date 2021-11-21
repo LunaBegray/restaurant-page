@@ -1,7 +1,7 @@
 import createContent from "./content";
 import createMenu from "./menu";
 createContent();
-
+createMenu();
 /*
 //tabs area
 const tabDiv = document.createElement("div");
